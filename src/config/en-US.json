@@ -1,0 +1,9 @@
+{
+  "adminName": "Management Mystem",
+  "username": "Username",
+  "password": "Password",
+  "inputUserName": "Please enter a username",
+  "inputPassword": "Please enter password",
+  "loginButton": "Login",
+  "passwordLength": "A minimum of eight digits is required"
+}

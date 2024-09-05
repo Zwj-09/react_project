@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1",
+    "name": "总览",
+    "icon": "<BarsOutlined />",
+    "path": "/home"
+  }
+]

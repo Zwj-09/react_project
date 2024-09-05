@@ -1,0 +1,9 @@
+{
+  "adminName": "后台管理系统",
+  "username": "用户名",
+  "password": "密码",
+  "inputUserName": "请输入用户名",
+  "inputPassword": "请输入密码",
+  "loginButton": "登录",
+  "passwordLength": "至少需要八位"
+}
