@@ -1,7 +1,7 @@
 import React, { memo, MouseEvent } from "react";
 import { Switch } from "antd";
-import { animated, useSpring } from "@react-spring/web";
 import { ThemeWrapper } from "./styled";
+import SvgIcon from "src/components/SvgIcon/index"
 
 interface DocType extends Document {
   startViewTransition: (callback?: unknown) => any;
@@ -90,34 +90,15 @@ const ThemeSwitch = memo(() => {
     });
   };
 
-  const styles = useSpring({
-    from: {
-      width: 0,
-      height: 0,
-    },
-    to: {
-      width: 200,
-      height: 200,
-    },
-    config: {
-      //   duration: 2000,
-      mass: 2,
-      friction: 10,
-      tension: 200,
-    },
-  });
-
   return (
     <ThemeWrapper color="yellow">
+      <SvgIcon />
       <Switch
         defaultChecked
         onChange={toggleTheme}
         checkedChildren={<DarkIcon />}
         unCheckedChildren={<LightIcon />}
       />
-      <animated.div className="box" style={{ ...styles }}>
-        asdasdasd
-      </animated.div>
     </ThemeWrapper>
   );
 });
